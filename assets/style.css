@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(109, 195, 212);
 }
 
 header {
@@ -7,7 +7,7 @@ header {
    font-size: 24px;
 }
 
-.container {
+#intro {
     background-color: white;
     border-style: solid;
     padding: 16px;
@@ -29,4 +29,15 @@ p {
     width: 100px;
     height: 30px;
     font-size: 100%;
+}
+
+#question {
+    background-color: white;
+    border-style: solid;
+    padding: 16px;
+    text-align: center;
+}
+
+.none {
+    display: none;
 }
