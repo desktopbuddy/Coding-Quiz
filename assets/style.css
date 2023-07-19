@@ -2,12 +2,12 @@ body {
     background-color: rgb(109, 195, 212);
 }
 
-header {
+h1 {
    margin: 16px;
    font-size: 24px;
 }
 
-#intro {
+#intro, #game-over {
     background-color: white;
     border-style: solid;
     padding: 16px;
@@ -40,4 +40,20 @@ p {
 
 .none {
     display: none;
+}
+
+#title {
+    font-size: 32px;
+}
+
+.timer {
+
+}
+
+#time {
+
+}
+
+#result {
+
 }

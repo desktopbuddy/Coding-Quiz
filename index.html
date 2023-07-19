@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css" />
-    <title>Document</title>
+    <title>Front-end Quiz</title>
 </head>
 
 <body>
-    <header>Coding Quiz</header>
+    <header>
+        <h1>Coding Quiz<h1>
+        <div class="timer">Time: <span id="time">0</span></div>
+    </header>
 
     <main>
         <div id="intro" class="">
@@ -20,13 +23,18 @@
         </div>
 
         <section id="question" class="none">
-            <h1>Question 1</h1>
-            <div>
-                <li><button>Answer 1</button></li>
-                <li><button>Answer 2</button></li>
-                <li><button>Answer 3</button></li>
-                <li><button>Answer 4</button></li>
+            <h1 id="title"></h1>
+            <div id="choices">
+                <li><button class="choice">Answer 1</button></li>
+                <li><button class="choice">Answer 2</button></li>
+                <li><button class="choice">Answer 3</button></li>
+                <li><button class="choice">Answer 4</button></li>
             </div>
+        </section>
+
+        <section id="game-over" class="none">
+            <h1 id="result">Your score: <span id="score">0</span></h1>
+            <p>Enter initials: <input type="text" id="initials" max=2/><button id="submit">Submit</button></p>
         </section>
 
     </main>
